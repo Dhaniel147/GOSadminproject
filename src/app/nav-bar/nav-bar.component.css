@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-nav ms-auto{
+    display: inline;
+    padding: 10px;
+}
