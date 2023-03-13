@@ -1,12 +1,28 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomepageComponent } from './homepage/homepage.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+
 
 const routes: Routes = [
   {
-  path:' nav-barcomponent,',
-  
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
+  },
+  {
+    path: 'home',
+    component: NavBarComponent
+
+  },
+  {
+    path: 'homepage',
+    component: HomepageComponent
   }
+  
   ];
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
