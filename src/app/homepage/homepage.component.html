@@ -1,9 +1,34 @@
 <app-nav-bar></app-nav-bar>
 
-    <div class="slideshow-container">
-        <div class="image-card">
-      <img [src]="" class="image" width="100%" height="600px">
-    </div>   
+  <div class="slideshow-container" #myDiv>
+
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="/" style="width:100%">
+        <div class="text">Caption Text</div>
     </div>
 
+    <div class="mySlides fade" >
+        <div class="numbertext">2 / 3</div>
+        <img src="/" style="width:100%">
+        <div class="text">Caption Two</div>
+    </div>
 
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="/" style="width:100%">
+        <div class="text">Caption Three</div>
+    </div>
+
+    <a class="prev" (click)="(-1)">&#10094;</a>
+    <a class="next" (click)="plusSlides(plusSlides1)">&#10095;</a>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" (click)="currentSlide(1)"></span>
+    <span class="dot" (click)="currentSlide(2)"></span>
+    <span class="dot" (click)="currentSlide(3)"></span>
+</div>

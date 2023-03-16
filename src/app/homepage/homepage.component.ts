@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
- images = 'assets/images/img.png';
- 
+  
+  
 
 }
 
