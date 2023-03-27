@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
-  
+     logoimg = "../assets/images/gos2.png";
 }

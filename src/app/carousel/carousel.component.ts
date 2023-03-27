@@ -7,5 +7,7 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./carousel.component.css']
 })
 export class CarouselComponent {
-  
+  function() {
+    
+  }
 }

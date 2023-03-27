@@ -1,35 +1,3 @@
-.slide{
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    background-size: cover;
-    background-position: center;
-}
-.rightArrow{
-    position: absolute;
-    top: 50%;
-    right: 32px;
-    transform: translate(0, -50%);
-    font-size: 45px;
-    z-index: 1;
-    color: #fff;
-    cursor: pointer;
-}
-.leftArrow{
-    position: absolute;
-    top: 50%;
-    right: 32px;
-    transform: translate(0, -50%);
-    font-size: 45px;
-    z-index: 1;
-    color: #fff;
-    cursor: pointer;
-}
-.slider{
-    position: relative;
-    height: 100%;
-}
-.dotContainers{
-    display: flex;
-    justify-content: center;
-}
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }

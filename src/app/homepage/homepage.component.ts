@@ -7,19 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
-  changeSlide(type: number){
-    this.currentSlide
-  }
-  currentSlide(type: number){
-
-  }
-    Slidesinterface = [
-       {imageurl: '../assests/images/banner-image.png', numbertext: 1}
+    mySlides = [
+       {imageurl: '../assests/images/banner-image.png', }
        
   ]
-     
-  
-    
   
 }
 
