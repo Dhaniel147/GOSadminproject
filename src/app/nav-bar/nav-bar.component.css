@@ -14,14 +14,17 @@
     color: rgb(75, 70, 70);
     font-size: 14px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 25px;
+    padding: 20px;
 }
 .nav-item:hover{
     color: skyblue;
-}       
+}   
+.first{
+    color: skyblue;
+}    
 .item-wrapper{
     position: relative;
-    left: 4%;
+    left: 6%;
 }
 .btn:hover{
     width: 95px;

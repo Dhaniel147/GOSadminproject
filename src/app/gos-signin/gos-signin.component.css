@@ -3,14 +3,30 @@ body{
 }
 .box{
     width: 100%;
-    height: 250px;
+    height: 350px;
     background-color: lightskyblue;
 }
 .text{
     text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-family: 'Arial Narrow', Arial, sans-serif;
 }
 .login-box{
-    border: 1px;
-    width: 155px;
-    height: 270px;
+    position: absolute;
+    width: 555px;
+    height: 450px;
+    bottom: 4%;
+    left: 30%;
+    background-color: white
+}
+.login-text{
+    font-size: 30px;
+    text-align: center;
+}
+.form-input{
+    position: inherit;
+    width: 170px;
+    height: 30px;
+
 }

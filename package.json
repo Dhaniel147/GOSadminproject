@@ -22,8 +22,10 @@
     "bootstrap5": "^1.1.9",
     "carousel-slider": "^1.1.5",
     "ng-image-slider": "^7.0.0",
+    "ngx-slick-carousel": "^15.0.0",
     "popper.js": "^1.16.1",
     "rxjs": "~7.8.0",
+    "slick-carousel": "^1.8.1",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },

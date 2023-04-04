@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./gos-signin.component.css']
 })
 export class GosSigninComponent {
-
+  
 }

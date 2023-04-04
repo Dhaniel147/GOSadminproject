@@ -5,29 +5,20 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { CarouselComponent} from './carousel/carousel.component';
+import { GosSigninComponent } from './gos-signin/gos-signin.component';
 
 
 
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'home',
-    pathMatch: 'full'
-  },
-  {
-    path: 'home',
-    component: NavBarComponent
-
-  },
-  {
-    path: 'homepage',
     component: HomepageComponent
   },
   {
-    path: 'carousel',
-    component: CarouselComponent
-  }
-  ];
+    path: 'sign-in',
+    component: GosSigninComponent
+  },
+];
 
 
 @NgModule({

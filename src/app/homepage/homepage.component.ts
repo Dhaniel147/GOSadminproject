@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./homepage.component.css']
 })
 export class HomepageComponent {
-    mySlides = [
-       {imageurl: '../assests/images/banner-image.png', }
-       
-  ]
   
 }
 
